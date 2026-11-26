@@ -14,7 +14,7 @@ static func spawn_entries() -> Array[Dictionary]:
 	var kinds: Array = load(_dir() + "/kinds.gd").KINDS
 
 	for k: Dictionary in kinds:
-		out.append({"category": "NPCs", "id": k["id"], "name": k["name"], "icon": "", "kind": "npc", "core": true, "role": k["role"], "spawn": k})
+		out.append({"category": "NPCs", "id": k["id"], "name": k["name"], "icon": _dir() + "/icons/%s.png" % k["id"], "kind": "npc", "core": true, "role": k["role"], "spawn": k})
 
 	out.append_array(_extra())
 	return out
