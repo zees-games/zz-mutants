@@ -1,9 +1,20 @@
 [
     {
-        "paths": [""],
+        "paths": [
+            ""
+        ],
         "licence": "MIT",
         "author": "TMC",
         "url": "https://github.com/zees-games/zz-mutants",
         "title": "zz-mutants (original content)"
+    },
+    {
+        "paths": [
+            "addons/zz_mutants/monsters/parasite_host.glb"
+        ],
+        "licence": "CC-BY-4.0",
+        "author": "Bekalo Animations (Bekalo_animation)",
+        "url": "https://sketchfab.com/3d-models/scary-monster-f1983fe209604fff861c55fa7ecbfe74",
+        "title": "Scary Monster (used as the Parasite Host; posed by code in the pack's view, the model itself unchanged)"
     }
 ]

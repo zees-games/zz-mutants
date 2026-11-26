@@ -1,7 +1,20 @@
 {
     "schema": 1,
     "title": "Zombie Zone Mutants",
-    "kinds": ["npc"],
-    "games": ["zombie-zone"],
-    "entries": []
+    "kinds": [
+        "npc"
+    ],
+    "games": [
+        "zombie-zone"
+    ],
+    "entries": [
+        {
+            "kind": "npc",
+            "id": "parasite_host",
+            "name": "Parasite Host",
+            "meta": {
+                "spawn_provider": "addons/zz_mutants/spawn_provider.gd"
+            }
+        }
+    ]
 }
