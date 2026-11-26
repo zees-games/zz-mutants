@@ -189,7 +189,7 @@ func _ph_death(t: float) -> void:
 	_model.position.y = _lift + 0.25 * fall
 
 
-func flinch(_from_side: float = 1.0, _head := false) -> void:
+func flinch(_from_side: float = 1.0, _head := false, _region := 2) -> void:
 	_hit_t = 0.45
 
 
