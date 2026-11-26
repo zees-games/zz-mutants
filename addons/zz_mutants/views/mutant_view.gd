@@ -238,6 +238,11 @@ func _collapse() -> void:
 		_skeleton.set_bone_pose_scale(gone, Vector3.ONE * 0.001)
 
 
+## The mutant's parts are guns and a pack: a cut sparks (see [method _part_lost]) and does not bleed on the walls.
+func _spray_walls(_joint: Vector3, _impulse: Vector3) -> void:
+	pass
+
+
 func _is_gone(part: StringName) -> bool:
 	return _stump_fx.has(part)
 
