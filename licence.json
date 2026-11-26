@@ -16,5 +16,44 @@
         "author": "Bekalo Animations (Bekalo_animation)",
         "url": "https://sketchfab.com/3d-models/scary-monster-f1983fe209604fff861c55fa7ecbfe74",
         "title": "Scary Monster (used as the Parasite Host; posed by code in the pack's view, the model itself unchanged)"
+    },
+    {
+        "paths": [
+            "addons/zz_mutants/zombies/zombie_mutant.glb",
+            "addons/zz_mutants/zombies/mutant_clips.tres"
+        ],
+        "licence": "CC-BY-4.0",
+        "author": "Zeldrix",
+        "url": "https://sketchfab.com/3d-models/buff-mutant-20-8933f1f4a728486e8bcbe09714b842be",
+        "title": "Buff Mutant 2.0 (re-rigged, split)"
+    },
+    {
+        "paths": [
+            "addons/zz_mutants/zombies/zombie_oil_monster"
+        ],
+        "licence": "CC-BY-4.0",
+        "author": "lealeelu",
+        "url": "https://sketchfab.com/3d-models/scary-lovcraftian-toothy-oil-monster-7b89564025b94fceb3153668f538f8f5",
+        "title": "Scary, Lovcraftian, Toothy, Oil-monster (modified; teeth by mStuff, CC0, https://blendswap.com/blend/12455)"
+    },
+    {
+        "paths": [
+            "addons/zz_mutants/zombies/zombie_brute.glb",
+            "addons/zz_mutants/zombies/zombie_bloater.glb",
+            "addons/zz_mutants/zombies/zombie_strangler.glb",
+            "addons/zz_mutants/zombies/zombie_spitter.glb",
+            "addons/zz_mutants/zombies/zombie_sleeper.glb",
+            "addons/zz_mutants/zombies/zombie_screamer.glb",
+            "addons/zz_mutants/zombies/brute_",
+            "addons/zz_mutants/zombies/bloater_",
+            "addons/zz_mutants/zombies/strangler_",
+            "addons/zz_mutants/zombies/spitter_",
+            "addons/zz_mutants/zombies/sleeper_",
+            "addons/zz_mutants/zombies/screamer_"
+        ],
+        "licence": "MIT",
+        "author": "TMC",
+        "url": "https://github.com/zees-games/game-zombie-zone",
+        "title": "Special zombie bodies (built procedurally by art-src/zombie_specials.py on the CC0 Quaternius Zombie Apocalypse Kit rig, clips and base meshes; textures baked here)"
     }
 ]
