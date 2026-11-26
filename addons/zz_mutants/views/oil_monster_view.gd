@@ -7,7 +7,7 @@ extends "ZZ_VIEW_PARENT"
 const MODEL := "ZZ_PACK_DIR/zombies/zombie_oil_monster.glb"
 const MODEL_LOD1 := "ZZ_PACK_DIR/zombies/zombie_oil_monster_lod1.glb"
 const OIL_MONSTER_CREDITS := "Scary, Lovcraftian, Toothy, Oil-monster by lealeelu (CC-BY 4.0), modified; teeth: Tooth and spike collection by mStuff (CC0)"
-const CLIPS: Array[StringName] = [&"idle", &"slide", &"mouth_open", &"bite", &"grab", &"lift", &"swallow", &"flinch", &"die"]
+const OIL_CLIPS: Array[StringName] = [&"idle", &"slide", &"mouth_open", &"bite", &"grab", &"lift", &"swallow", &"flinch", &"die"]
 const SLIDE_SPEED := 3.0
 const ONE_SHOTS: Array[StringName] = [&"mouth_open", &"bite", &"flinch", &"die"]
 
