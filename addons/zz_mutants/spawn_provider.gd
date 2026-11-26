@@ -40,7 +40,7 @@ static func _extra() -> Array[Dictionary]:
 		"category": "NPCs",
 		"id": "parasite_host",
 		"name": "Parasite Host",
-		"icon": "",
+		"icon": _dir() + "/icons/parasite_host.png",
 		"kind": "npc",
 		"spawn": {
 			"npc": "parasite_host",
