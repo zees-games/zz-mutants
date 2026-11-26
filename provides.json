@@ -1,0 +1,7 @@
+{
+    "schema": 1,
+    "title": "Zombie Zone Mutants",
+    "kinds": ["npc"],
+    "games": ["zombie-zone"],
+    "entries": []
+}
